@@ -1,3 +1,7 @@
+# TinyMind运行结果
+
+[quiz-w8 #4](https://www.tinymind.com/zheshiluwei)
+
 # 作业心得
 
 1. 由于本作业源码基于tensorflow 1.5 api编写，而tinymind上暂时支持的tensoflow最新版本是1.4，tf1.5和1.4的部分api存在差异。根据作业文档的提示，我增加了运行时对tensoflow版本的检查，根据不同版本执行调用不同的api，这使得本地tf-1.5环境和tinymind环境都能使用同一套代码。
